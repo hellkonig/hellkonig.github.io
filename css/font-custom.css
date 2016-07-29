@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 700;
+    font-size: 400%;
+}
+
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 500;
+    /*font-size: 16px;*/
+}
+
+a {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+ul li a {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+/* Awesome font */
+a i {
+     color:#000;
+     transition: all 0.2s ease-in-out;
+}
+
+a i:hover {
+     opacity: .5;
+}
