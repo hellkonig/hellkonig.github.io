@@ -1,60 +1,54 @@
-#myCarousel
+/* carousel */
+#quote-carousel 
 {
-  padding:0 10px 30px 10px;
+  padding: 0 10px 30px 10px;
   margin-top: 30px;
+  margin-bottom: 350px;
 }
 
-#myCarousel .carousel-control
+/* Control buttons  */
+#quote-carousel .carousel-control
 {
   background: none;
   color: #222;
   font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 30px;
+  /* text-shadow: none; */
+  margin-top: 100px;
+  /* position: relative; */
 }
-
 /* Previous button  */
 #quote-carousel .carousel-control.left 
 {
-  background-image: none;
-  left: -12px;
+  left: -20px ;
 }
 /* Next button  */
 #quote-carousel .carousel-control.right 
 {
-  right: -12px !important;
+  right: -20px  !important;
 }
-
-#myCarousel .carousel-indicators
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
 {
   right: 50%;
   top: auto;
-  bottom: 0px;
+  bottom: -50px;
   margin-right: -19px;
 }
-
-#myCarousel .carousel-indicators li
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
 {
   background: #c0c0c0;
 }
-
-#myCarousel .carousel-indicators .active
+#quote-carousel .carousel-indicators .active 
 {
   background: #333333;
-}
-#quote-carousel img
-{
-  width: 250px;
-  height: 100px
 }
 /* End carousel */
 
 .item blockquote {
-    border-left: none;
+    border-left: none; 
     margin: 0;
-}
-
-.item blockquote img {
+tem blockquote img {
     margin-bottom: 10px;
 }
 
@@ -65,9 +59,7 @@
     margin-right: 10px;
 }
 
-.item span {
-    font-style: normal;
-}
+
 
 /**
   MEDIA QUERIES
@@ -80,7 +72,6 @@
       margin-bottom: 0;
       padding: 0 40px 30px 40px;
     }
-    
 }
 
 /* Small devices (tablets, up to 768px) */
@@ -96,9 +87,10 @@
         margin: 0px 5px;
         width: 15px;
         height: 15px;
-        }
+    }
     #quote-carousel .carousel-indicators li.active {
         margin: 0px 5px;
         width: 20px;
         height: 20px;
     }
+}
