@@ -17,6 +17,9 @@
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">
 
+  <!-- Custom CSS -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
   <!-- Carousel Slide -->
   <link href="css/carousel.css" rel="stylesheet">
 
@@ -44,23 +47,38 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav navbar-right">
+          <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
           <li><a class="page-scroll" href="#research">RESEARCH</a></li>
           <li><a class="page-scroll" href="#publication">PUBLICATION</a></li>
           <li><a class="page-scroll" href="#resume">RESUME</a></li>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Intro Section -->
-  <div class="jumbotron text-center">
-    <h1>Liang Wang</h1> 
-    <p>Numerical Astrophysics on Galaxy formation</p> 
-  </div>
+  <section id="intro" class="jumbotron">
+     <div class="container">
+       <div class="row">  
+         <div class="col-lg-12">
+           <div class="header-hero">
+             <h1>Liang Wang</h1> 
+             <h3>Numerical Astrophysist on Galaxy formation</h3> 
+           </div>
+         </div>
+       </div>
+     </div>
+  </section>
 
   <!-- Research Section -->
-  <div id="Research" class="container text-center">
-    <h2>Research</h2>
+  <section id="research" class="text-center odd-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Research</h2>
+        </div>
+      </div>
       <div class='row'>
         <div class="carousel slide" data-ride="carousel" id="quote-carousel">
           <div class='col-md-offset-1 col-md-10'>
@@ -70,10 +88,10 @@
               <li data-target="#quote-carousel" data-slide-to="1"></li>
               <li data-target="#quote-carousel" data-slide-to="2"></li>
             </ol>
-        
+      
             <!-- Carousel Slides / Quotes -->
             <div class="carousel-inner" role="listbox">
-        
+      
               <!-- Quote 1 -->
               <div class="item active">
                 <blockquote>
@@ -125,16 +143,29 @@
         </div>
       </div>                          
     </div>
+  </section>
 
   <!-- Publication Section -->
-  <div id="publication" class="container text-center bg-grey">
-    <h2>Publications</h2>
-  </div>
+  <section id="publication" class="text-center even-section">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-12">
+           <h2>Publications</h2>
+         </div>
+       </div>
+     </div>
+  </section>
 
   <!-- Resume Section -->
-  <div id="resume" class="container text-center">
-    <h2>Resume</h2>
-  </div>
+  <section id="resume" class="text-center odd-section">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-12">
+           <h2>Resume</h2>
+         </div>
+       </div>
+     </div>
+  </section>
 
 
   <!-- jQuery -->
@@ -148,4 +179,5 @@
   <script src="js/scrolling-nav.js"></script>
 
 </body>
+
 </html>
